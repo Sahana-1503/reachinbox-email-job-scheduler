@@ -20,7 +20,8 @@ import {
 
 import "./index.css";
 
-const API_URL = "http://localhost:5000";
+const API_URL =
+  import.meta.env.VITE_API_URL || "http://localhost:5000";
 
 type CurrentUser = {
   id: string;
@@ -134,8 +135,7 @@ function App() {
         error
       );
 
-      window.location.href =
-        `${API_URL}/api/auth/google`;
+     window.location.href = `${API_URL}/api/auth/google`;
     } finally {
       setAuthLoading(false);
     }
