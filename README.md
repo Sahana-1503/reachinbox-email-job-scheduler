@@ -337,3 +337,12 @@ These mechanisms improve reliability but do not establish an absolute exactly-on
 ReachInbox Email Job Scheduler demonstrates the integration of persistent background processing, relational data management, controlled job execution, search infrastructure, authentication, and notification services within a full-stack application.
 
 The implementation focuses on reliable scheduling, configurable sending controls, restart recovery, operational visibility, and a web-based email management workflow. The architecture also establishes a foundation for future improvements, including production SMTP integration, enhanced delivery reconciliation, advanced monitoring, and broader scalability.
+
+Author
+
+- Sahana B U
+- Engineering Student
+- Software Development Enthusiast  
+- Full-Stack Application Development Learner  
+- Interested in Backend Systems, Distributed Job Processing, and Cloud Deployment
+
